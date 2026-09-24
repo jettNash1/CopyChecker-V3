@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Segoe UI", sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid #1a281f;
+  outline-offset: 2px;
+}
+
+mark {
+  background-color: #fa9a66;
+  color: #000000;
+  box-decoration-break: clone;
+}
